@@ -1,0 +1,43 @@
+Date of GitLab Tutorial: 10/15/21
+Date of GitHub Account Creation: 10/15/21
+Repository link: https://github.com/HandelSim/assignment2
+
+1. Username for 'https://github.com': HandelSim
+Password for 'https://HandelSim@github.com': 
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 708 bytes | 708.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/HandelSim/assignment2
+   f4975e5..d854746  master -> master
+
+2. 9 commits have been done
+I used the command git shortlog
+
+3. Last modified at Fri Oct 15 22:23:19 2021
+Given by the command git log
+
+4. Branches are used as placeholders for so that commits are easier to reference.
+ They are also used as ways to know what to push or pull to or from repositories.
+
+5. git log shows the history of commits. git status shows how up-to-date the repository is compared to your local machine.
+
+6. git log --follow Vehicle.h
+
+7. git log --grep="file"
+
+8. Inheritence is the idea that a child class inherits the properties of its parent class. 
+Polymorphism is the idea that a single type can take multiple different forms, like how a shape can be a circle, square, or rectangle.
+ Encapsulation is the idea of keeping private information private, whether that be sensitive data or class member variables.
+
+9. The major difference is that the dictator and lieutenant model has three levels of people while the integration manager has two.
+Although the developers have a private and public repository in the integration manager model, that is different from having
+three separate levels of people.
+
+10. Having 100 developers using the centralized workflow model would be disastrous because there are so many opportunities 
+for conflicting code. The dicator and lieutenant model helps cut back these problems by a lot because there is a hierarchy of
+lieutenants in between the developers and the central repository. This layer is basically a filtering layer. In any one repository,
+there are mush fewer people to conflict with.
